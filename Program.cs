@@ -5,7 +5,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        [DllImport(@"C:\Users\laptop\source\repos\ConsoleApp1\x64\Debug\IsPrimeDLL.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"x64/Debug/IsPrimeDLL.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern bool is_prime(int x);
         static void Main(string[] args)
         {

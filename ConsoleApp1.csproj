@@ -13,4 +13,10 @@
     <ProjectReference Include="..\IsPrimeDLL\IsPrimeDLL.vcxproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="x64\Debug\IsPrimeDLL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
